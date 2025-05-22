@@ -11,3 +11,4 @@ scale = Vector2(21.2422, 15.3203)
 texture = ExtResource("1_pjo30")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_2jcny")]
+walk_speed = 200
