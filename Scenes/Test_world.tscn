@@ -11,4 +11,11 @@ scale = Vector2(21.2422, 15.3203)
 texture = ExtResource("1_pjo30")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_2jcny")]
-walk_speed = 200
+walk_speed = 300
+deadzone = 0.2
+max_stamina = 200
+stamina_regen_rate = 5
+Sstamina_drain_rate = 40
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.3, 0.3)
